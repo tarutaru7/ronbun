@@ -178,7 +178,8 @@ VR空間内でデートするアプリでは個別の問題点を以下のよう
  \label{fig:screen}
 \end{figure}
 \subsubsection{視点同期方法}
-視点の同期はWebsocket-sharpを用いて実装した．
+視点の同期はWebSocket-sharpを用いて実装した．
+
 
 \clearpage
 
@@ -192,8 +193,10 @@ VR空間内でデートするアプリでは個別の問題点を以下のよう
 UnityとはUnity Technologiesが開発したゲーム開発プラットフォームであり，主にC\#を用いたプログラミングでコンテンツの開発が可能である。iOSやAndroid、XboxやPlayStation4などの様々なプラットフォームでの開発，VR/AR/MR機器向けのコンテンツ開発にも対応している。
 
 \subsection{通信プロトコル}
-\subsubsection{websocket}
-
+\subsubsection{WebSocket}
+WebSocketとは、ブラウザとウェブサーバーとの間で双方向通信を行うための通信プロトコルである．
+サーバー側とユーザー側が常にオンライン状態を維持することによって、双方向通信を可能としている．
+そのため，従来の通信プロトコルと比べ，リアルタイムに情報共有することを可能としている．
 \clearpage
 
 \section{結言}
@@ -224,6 +227,8 @@ UnityとはUnity Technologiesが開発したゲーム開発プラットフォー
 \bibitem{naikakufu2022} 内閣府: ``令和４年版男女共同参画白書'', \url{https://www.gender.go.jp/about_danjo/whitepaper/r04/gaiyou/pdf/r04_gaiyou.pdf}, 2022/6/14参照
 \bibitem{doukou}国立社会保障・人口問題研究所:``第15回出生動向基本調査'',
 \url{https://www.ipss.go.jp/ps-doukou/j/doukou15/NFS15_report3.pdf},2022/3/14参照
+\bibitem{wecsocketsetumi}WebSocketとは？WebSocketについて詳しく解説します:``Web会議の基礎知識'',
+\url{https://www.freshvoice.net/knowledge/word/6323/},2022/6/10参照
 \end{thebibliography}
 
 \end{document}
